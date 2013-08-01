@@ -1,6 +1,16 @@
 ---
 title: Main
 layout: default
+navigation:
+- text: Home
+  title: Home
+  url: /jekyll-test/
+- text: Main
+  title: Main
+  url: /jekyll-test/main
+- text: About
+  title: About
+  url: /jekyll-test/about
 ---
 
 # Main
