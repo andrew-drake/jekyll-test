@@ -37,8 +37,8 @@ v-collapse">
           <div class="nav-collapse collapse">
 			<ul class='nav'>
 				{% for link in site.navigation %}
-				<li {% if page.url == "/jekyll-test"link.url %}class="active"{% endif %}>
-				    <a href="{{link.url}}" title="{{link.title}}">{{link.text}}</a>
+				<li {% if page.url == "/jekyll-test"|append:link.url %}class="active"{% endif %}>
+				    <a href="{{link.url}}" title="{{link.title}}">{{link.text}} new</a>
 				</li>
 				{% endfor %}
 			</ul>
