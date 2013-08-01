@@ -36,12 +36,15 @@ v-collapse">
           <a class="brand" href="/jekyll-test/">{{ site.name }}</a>
           <div class="nav-collapse collapse">
 			<ul class='nav'>
-			  	
+			  	{% assign url = page.url|remove:'index.html' %}
 				{% for link in page.navigation %}
-				<li {% if page.url != link.url %}class="active"{% endif %}>
+				<li {% if page.url == link.url OR url == link.url %}class="active"{% endif %}>
 				    <a href="{{link.url}}" title="{{link.title}}">{{link.text}}</a>
 				</li>
 				{% endfor %}
+				{{page.url}}
+				{{link.url}}
+				{{url}}
 			</ul>
           </div>
         </div>
