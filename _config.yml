@@ -9,3 +9,11 @@ markdown: rdiscount
 permalink: pretty
 layout: default
 baseurl: /jekyll-test
+navigation:
+- text: Home
+  url: /jekyll-test/
+- text: Main
+  title: Main
+  url: /jekyll-test/main
+- text: About
+  url: /jekyll-test/about
