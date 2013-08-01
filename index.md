@@ -7,10 +7,10 @@ navigation:
   url: /jekyll-test/
 - text: Main
   title: Main
-  url: /jekyll-test/main
+  url: /jekyll-test/main/
 - text: About
   title: About
-  url: /jekyll-test/about
+  url: /jekyll-test/about/
 ---
 
 # Hello World
