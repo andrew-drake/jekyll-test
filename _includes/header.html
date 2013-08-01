@@ -37,8 +37,8 @@ v-collapse">
           <div class="nav-collapse collapse">
 			<ul class='nav'>
 				{% for link in site.navigation %}
-				<li {% if site.url == link.url %}class="active"{% endif %}>
-				    <a href="{{link.url}}" title="{{link.title}}">{{link.text}}</a>
+				<li {% if page.url == link.url %}class="active"{% endif %}>
+				    <a href="{{link.url}}" title="{{link.title}}">{{link.text}} ---- {{link.url}} ---- {{page.url}} ---- {{site.url}} 8 </a>
 				</li>
 				{% endfor %}
 			</ul>
