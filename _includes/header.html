@@ -39,7 +39,7 @@ v-collapse">
 				{% assign url = "/jekyll-test"link.url %}
 				{% for link in site.navigation %}
 				<li {% if page.url == url %}class="active"{% endif %}>
-				    <a href="{{link.url}}" title="{{link.title}}">{{link.text}} newish</a>
+				    <a href="{{link.url}}" title="{{link.title}}">{{link.text}} newish2 {{url}}</a>
 				</li>
 				{% endfor %}
 			</ul>
