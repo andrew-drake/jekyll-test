@@ -36,10 +36,10 @@ v-collapse">
           <a class="brand" href="/jekyll-test/">{{ site.name }}</a>
           <div class="nav-collapse collapse">
 			<ul class='nav'>
-				{% assign link.url = baseurl | append: link.url %}
+				{% assign url = "/jekyll-test" | append: link.url %}
 				{% for link in site.navigation %}
-				<li {% if page.url == link.url %}class="active"{% endif %}>
-				    <a href="{{link.url}}" title="{{link.title}}">{{link.text}} ---- {{link.url}} ---- {{page.url}} ---- {{baseurl}} 8 </a>
+				<li {% if page.url == url %}class="active"{% endif %}>
+				    <a href="{{link.url}}" title="{{link.title}}">{{link.text}} ---- {{link.url}} ---- {{page.url}} ---- {{url}} 8 </a>
 				</li>
 				{% endfor %}
 			</ul>
