@@ -14,8 +14,7 @@ navigation:
   url: /main/sub3/
 ---
 
-# sub
-# 2
+# sub 3
 
 
 this is some text this is some text this is some text this is some text this is some text\ 
@@ -24,7 +23,7 @@ this is some text this is some text this is some text this is some text this is 
 this is some text this is some text this is some text this is some text this is some text\ 
 
 
-## Sub
+## Substuff
 
 Proin eleifend libero accumsan felis luctus nec consectetur purus commodo. \
 Phasellus sodales est nec massa imperdiet commodo. Maecenas risus nulla, pl\
@@ -34,5 +33,5 @@ Donec libero libero, bibendum non condimentum ac, ullamcorper at sapien. Du\
 is feugiat urna vel justo cursus facilisis. Vivamus ligula dui, convallis a\
  varius vitae, facilisis eget magna.
 
-### stuff
+### Whoop
 

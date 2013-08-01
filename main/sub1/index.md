@@ -1,16 +1,27 @@
 ---
+heading: Main
 title: Main
-layout: default
+layout: sub
+navigation:
+- text: Sub1
+  title: Sub1
+  url: /main/sub1/
+- text: Sub2
+  title: Sub2
+  url: /main/sub2/
+- text: Sub3
+  title: Sub3
+  url: /main/sub3/
 ---
 
-# Main
+# sub1
 
 this is some text this is some text this is some text this is some text this is some text\ 
 this is some text this is some text this is some text this is some text this is some text\
 this is some text this is some text this is some text this is some text this is some text\
 this is some text this is some text this is some text this is some text this is some text\ 
 
-## Sub
+## what what
 
 Proin eleifend libero accumsan felis luctus nec consectetur purus commodo. \
 Phasellus sodales est nec massa imperdiet commodo. Maecenas risus nulla, pl\

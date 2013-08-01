@@ -4,3 +4,18 @@
 .blah {
 	font-color: green;
 }
+
+a.site_title.brand {
+	color: orange;
+}
+
+a.main_title.brand {
+	color: black;
+	margin-left: 141px;
+}
+
+.navbar-inverse .navbar-innerinner {
+	background-color: orange;
+	width: 100%;
+	margin-top: -20px;
+}	

@@ -12,10 +12,10 @@ baseurl: /jekyll-test
 navigation:
 - text: Home
   title: Home
-  url: /jekyll-test/
+  url: /
 - text: Main
   title: Main
-  url: /jekyll-test/main/
+  url: /main/
 - text: About
   title: About
-  url: /jekyll-test/about/
+  url: /about/
